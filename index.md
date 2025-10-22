@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Maribbit Blog"
-  text: "Interests and Thinking"
-  tagline: My great project tagline
+  name: "Maribbit的博客"
+  text: "兴趣与思考"
+  tagline: 记录生活、技术与感悟
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 查看博客
+      link: /blog/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 关于我
+      link: /about
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 技术分享
+    details: 分享编程经验、前端开发技巧和工具使用心得
+  - title: 生活随笔
+    details: 记录日常生活中的点滴思考和感悟
+  - title: 学习笔记
+    details: 整理学习过程中的笔记和总结
 ---
 
