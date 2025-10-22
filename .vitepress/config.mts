@@ -13,15 +13,17 @@ export default defineConfig({
       { text: "关于", link: "/about" },
     ],
 
-    sidebar: [
-      {
-        text: "博客文章",
-        items: [
-          { text: "第一篇文章", link: "/blog/first-post" },
-          { text: "第二篇文章", link: "/blog/second-post" },
-        ],
-      },
-    ],
+    sidebar: {
+      "/blog/": [
+        {
+          text: "博客文章",
+          items: [
+            { text: "第一篇文章", link: "/blog/first-post" },
+            { text: "第二篇文章", link: "/blog/second-post" },
+          ],
+        },
+      ],
+    },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
