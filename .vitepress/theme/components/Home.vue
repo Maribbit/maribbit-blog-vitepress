@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <section class="profile-card">
-      <img :src="avatarUrl" alt="Maribbit头像" class="avatar" />
+      <img src="./avatar.webp" alt="Maribbit头像" class="avatar" />
       <h1 class="name">Maribbit</h1>
       <p class="subtitle">海兔的技术分享</p>
       <div class="actions">
@@ -12,9 +12,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
-  const avatarUrl = new URL("./avatar.webp", import.meta.url).href;
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
   .home {
