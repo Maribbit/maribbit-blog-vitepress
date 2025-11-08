@@ -3,15 +3,9 @@
     <section class="profile-card">
       <img :src="avatarUrl" alt="Maribbit头像" class="avatar" />
       <h1 class="name">Maribbit</h1>
-      <p class="subtitle">海兔的个人博客</p>
-      <p class="bio">记录前端开发、生活随想与长期学习之路的个人博客。</p>
-      <ul class="tags">
-        <li>前端开发</li>
-        <li>生活记录</li>
-        <li>学习笔记</li>
-      </ul>
+      <p class="subtitle">海兔的技术分享</p>
       <div class="actions">
-        <a href="/blog/" class="action-button primary">开始阅读</a>
+        <a href="/projects/" class="action-button primary">我的项目</a>
         <a href="/about" class="action-button secondary">关于我</a>
       </div>
     </section>
@@ -56,32 +50,6 @@
     margin: 0.75rem 0;
     font-size: 1.1rem;
     color: var(--vp-c-text-2);
-  }
-
-  .bio {
-    margin: 0 auto 1.75rem;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--vp-c-text-2);
-  }
-
-  .tags {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0 0 2rem;
-  }
-
-  .tags li {
-    padding: 0.4rem 0.9rem;
-    border-radius: 999px;
-    background: rgba(44, 130, 201, 0.08);
-    color: var(--vp-c-brand-1);
-    font-size: 0.9rem;
-    border: 1px solid rgba(44, 130, 201, 0.15);
   }
 
   .actions {
