@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-  const avatarUrl = new URL("./avatar.png", import.meta.url).href;
+  const avatarUrl = new URL("./avatar.webp", import.meta.url).href;
 </script>
 
 <style scoped>
