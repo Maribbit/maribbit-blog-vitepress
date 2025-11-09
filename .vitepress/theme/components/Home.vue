@@ -8,6 +8,11 @@
         <a href="/projects/" class="action-button primary">我的项目</a>
         <a href="/about" class="action-button secondary">关于我</a>
       </div>
+      <p class="icp">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">
+          沪ICP备2025148475号-1
+        </a>
+      </p>
     </section>
   </div>
 </template>
@@ -82,6 +87,17 @@
 
   .secondary:hover {
     background: rgba(44, 130, 201, 0.1);
+  }
+
+  .icp {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: var(--vp-c-text-3);
+  }
+
+  .icp a {
+    color: inherit;
+    text-decoration: none;
   }
 
   @media (max-width: 640px) {
